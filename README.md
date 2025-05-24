@@ -38,6 +38,15 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 </ol>
 
 
+## 📈 PSNR Comparison
+
+<p align="center">
+  <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/psnr.png" width="800"/>
+</p>
+<p align="center">
+</p>
+
+
 ## 🧠 Network Architecture
 
 <p align="center">
@@ -48,9 +57,7 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 
 
 
-
-
-## 🔍 Visualization
+## 🔍 Visualization of DCT and DWT Decomposition
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/nir_dwt_dct.jpg" width="800"/>
