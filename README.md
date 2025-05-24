@@ -56,15 +56,9 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/nir_dwt_dct.jpg" width="800"/>
 </p>
 
-<p align="center">
-  <em>Visualization of spatial and frequency domain representations of RGB and NIR bands.</em>
-</p>
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/DWT_DCT.png" width="800"/>
-</p>
-<p align="center">
-  <em>Illustration of the spatial-frequency and pixel domain representations of an NIR image from the VCIP dataset.</em>
 </p>
 
 ## 🖼️ Visual Comparison
@@ -72,18 +66,10 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/result_nir_vcip.png" width="800"/>
 </p>
-<p align="center">
-  <em>Visual comparison with state-of-the-art methods on the VCIP test dataset.</em>
-</p>
-
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/result_nir_ssmid.png" width="800"/>
 </p>
-<p align="center">
-  <em>Visual comparison with state-of-the-art methods on the SSMID test dataset.</em>
-</p>
-
 
 ## 📊 Quantitative Comparison on VCIP Test Dataset
 
@@ -119,8 +105,6 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   </tbody>
 </table>
 
-<p><em>Table: Quantitative comparison with state-of-the-art methods on the VCIP test dataset. <b>Best</b> and <u>second-best</u> values are highlighted.</em></p>
-
 </div>
 
 
@@ -149,7 +133,5 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
     <tr><td><b>SF-GPT (DWT)</b></td><td><b>19.917</b></td><td><b>0.710</b></td><td><b>5.414</b></td><td><b>0.176</b></td></tr>
   </tbody>
 </table>
-
-<p><em>Table: Quantitative comparison with state-of-the-art methods on the SSMID test dataset. <b>Best</b> and <u>second-best</u> values are highlighted.</em></p>
 
 </div>
