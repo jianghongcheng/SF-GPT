@@ -44,3 +44,13 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/net.png" width="800"/>
 </p>
 
+## 🔍 Visualization
+
+<p align="center">
+  <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/nir_dwt_dct.jpg" width="800"/>
+</p>
+
+<p align="center">
+  <em>Figure: Visualization of spatial and frequency domain representations of RGB and NIR bands.</em>
+</p>
+
