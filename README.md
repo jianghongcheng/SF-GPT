@@ -83,8 +83,6 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 
 ## 📊 Quantitative Comparison on VCIP Test Dataset
 
-<div align="center">
-
 <table>
   <thead>
     <tr>
@@ -115,9 +113,6 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   </tbody>
 </table>
 
-<p><em>Table: Quantitative comparison with state-of-the-art methods on the VCIP test dataset. <b>Best</b> and <u>second-best</u> values are highlighted.</em></p>
-
-</div>
 
 ---
 
