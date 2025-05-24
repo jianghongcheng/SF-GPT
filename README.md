@@ -28,14 +28,15 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 ## ✨ Key Contributions
 
 <ol>
-  <li><strong>SF-GPT:</strong> We propose a novel Spatial-Frequency Guided Pixel Transformer for NIR-to-RGB translation, combining spatial and frequency cues to capture both local textures and global context.</li>
+  <li><strong>SF-GPT:</strong> We propose a novel <strong>Spatial-Frequency Guided Pixel Transformer</strong> for <strong>NIR-to-RGB translation</strong>, combining <strong>spatial</strong> and <strong>frequency-domain cues</strong> to capture both local textures and global context.</li>
 
-  <li><strong>Dual-domain Feature Extraction:</strong> We incorporate DCT or DWT to extract low- and high-frequency features, while pixel-wise cues are obtained via PixelUnshuffle for fine-grained reconstruction.</li>
+  <li><strong>Dual-domain Feature Extraction:</strong> We incorporate <strong>DCT</strong> or <strong>DWT</strong> to extract <strong>low-frequency</strong> and <strong>high-frequency features</strong>, while <strong>pixel-level cues</strong> are obtained via <strong>PixelUnshuffle</strong> for fine-grained reconstruction.</li>
 
-  <li><strong>SFG-MSA Module:</strong> We design a Spatial-Frequency Guided Multi-head Self-Attention mechanism that adaptively fuses pixel and frequency features, enhancing translation fidelity and feature discrimination.</li>
+  <li><strong>SFG-MSA Module:</strong> We introduce a <strong>Spatial-Frequency Guided Multi-head Self-Attention</strong> mechanism that adaptively fuses pixel and frequency features, enhancing translation fidelity and feature discrimination.</li>
 
-  <li><strong>State-of-the-art Performance:</strong> Extensive experiments validate the effectiveness of SF-GPT, outperforming existing methods in both visual quality and quantitative metrics.</li>
+  <li><strong>State-of-the-art Performance:</strong> Extensive experiments confirm that <strong>SF-GPT surpasses existing techniques</strong> in both visual quality and quantitative metrics, achieving <strong>over +1.5 dB PSNR gain</strong> on benchmark datasets.</li>
 </ol>
+
 
 
 ## 📈 PSNR Comparison on VCIP Test Dataset
