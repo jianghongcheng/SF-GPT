@@ -38,23 +38,13 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 </ol>
 
 
-## 📈 PSNR Comparison
+## 📈 PSNR Comparison on VCIP Test Dataset
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/psnr.png" width="800"/>
 </p>
 <p align="center">
 </p>
-
-✅ Notes:
-Emphasizes SF-GPT’s quantitative superiority with concrete gain values.
-
-The gain values were calculated from:
-
-VCIP: SF-GPT (DWT) = 25.82 dB, best baseline = ColorMamba @ 24.56 → Δ = +1.26 dB
-But actually the best baseline was SF-GPT (DCT) = 26.09, so SF-GPT (DWT) < SF-GPT (DCT) — please confirm what you want to emphasize.
-
-SSMID: SF-GPT (DWT) = 19.917, next best = SF-GPT (DCT) = 19.011 → Δ = +0.91 dB
 
 
 ## 🧠 Network Architecture
@@ -160,14 +150,17 @@ SSMID: SF-GPT (DWT) = 19.917, next best = SF-GPT (DCT) = 19.011 → Δ = +0.91 d
 If you find this work helpful in your research, please cite:
 
 ```bibtex
-@InProceedings{Jiang_2024_CVPR,
-    author    = {Jiang, Hongcheng and Chen, Zhiqiang},
-    title     = {Flexible Window-based Self-attention Transformer in Thermal Image Super-Resolution},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2024},
-    pages     = {3076--3085}
+@article{jiang2025spatial,
+  title={Spatial-Frequency Guided Pixel Transformer for NIR-to-RGB Translation},
+  author={Jiang, Hongcheng and Chen, ZhiQiang},
+  journal={Infrared Physics \& Technology},
+  year={2025},
+  pages={105891},
+  publisher={Elsevier},
+  doi={10.1016/j.infrared.2025.105891},
+  note={doi: \href{https://doi.org/10.1016/j.infrared.2025.105891}{10.1016/j.infrared.2025.105891}}
 }
+
 ```
 
 
