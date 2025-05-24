@@ -37,3 +37,14 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   <li><strong>State-of-the-art Performance:</strong> Extensive experiments validate the effectiveness of SF-GPT, outperforming existing methods in both visual quality and quantitative metrics.</li>
 </ol>
 
+
+## 🧠 Network Architecture
+
+<p align="center">
+  <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/net.png" width="800"/>
+</p>
+
+<p align="center">
+  <em>Figure: Overview of the proposed SF-GPT architecture, which integrates pixel and spatial-frequency domain features via the SFG-MSA module.</em>
+</p>
+
