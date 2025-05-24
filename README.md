@@ -25,14 +25,15 @@ Near-Infrared (NIR) imaging provides enhanced contrast and sensitivity but lacks
 
 We propose **SF-GPT**, a novel deep learning architecture that leverages both spatial and frequency domains through transformer-based mechanisms.
 
-## ✨ Contributions
+## ✨ Key Contributions
 
 <ol>
-  <li>We propose a Spatial-Frequency Guided Pixel Transformer (SF-GPT), a novel framework for NIR-to-RGB translation that effectively combines pixel and spatial-frequency features to capture both local textures and global context.</li>
+  <li><strong>SF-GPT:</strong> We propose a novel Spatial-Frequency Guided Pixel Transformer for NIR-to-RGB translation, combining spatial and frequency cues to capture both local textures and global context.</li>
 
-  <li>Our method integrates Discrete Cosine Transform (DCT) or Discrete Wavelet Transform (DWT) decomposition to extract spatial-frequency domain features. These transformations decompose input images into distinct low-frequency and high-frequency components, while pixel features are extracted using the PixelUnshuffle operation.</li>
+  <li><strong>Dual-domain Feature Extraction:</strong> We incorporate DCT or DWT to extract low- and high-frequency features, while pixel-wise cues are obtained via PixelUnshuffle for fine-grained reconstruction.</li>
 
-  <li>We introduce Spatial-Frequency Guided Multi-head Self-Attention (SFG-MSA), a novel self-attention mechanism that enhances the network's ability to extract critical features from both pixel and spatial-frequency representations, improving overall feature discrimination and translation accuracy.</li>
+  <li><strong>SFG-MSA Module:</strong> We design a Spatial-Frequency Guided Multi-head Self-Attention mechanism that adaptively fuses pixel and frequency features, enhancing translation fidelity and feature discrimination.</li>
 
-  <li>We conduct extensive experiments demonstrating the superior performance of our approach compared to state-of-the-art methods, showcasing the effectiveness of SF-GPT in accurately translating NIR images to RGB images.</li>
+  <li><strong>State-of-the-art Performance:</strong> Extensive experiments validate the effectiveness of SF-GPT, outperforming existing methods in both visual quality and quantitative metrics.</li>
 </ol>
+
