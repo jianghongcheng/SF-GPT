@@ -46,6 +46,16 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 <p align="center">
 </p>
 
+✅ Notes:
+Emphasizes SF-GPT’s quantitative superiority with concrete gain values.
+
+The gain values were calculated from:
+
+VCIP: SF-GPT (DWT) = 25.82 dB, best baseline = ColorMamba @ 24.56 → Δ = +1.26 dB
+But actually the best baseline was SF-GPT (DCT) = 26.09, so SF-GPT (DWT) < SF-GPT (DCT) — please confirm what you want to emphasize.
+
+SSMID: SF-GPT (DWT) = 19.917, next best = SF-GPT (DCT) = 19.011 → Δ = +0.91 dB
+
 
 ## 🧠 Network Architecture
 
@@ -68,11 +78,13 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/DWT_DCT.png" width="800"/>
 </p>
 
-## 🖼️ Visual Comparison
+## 🖼️ Visual Comparison on VCIP Test Dataset
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/result_nir_vcip.png" width="800"/>
 </p>
+
+## 🖼️ Visual Comparison on SSMID Test Dataset
 
 <p align="center">
   <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/result_nir_ssmid.png" width="800"/>
@@ -142,3 +154,29 @@ We propose **SF-GPT**, a novel deep learning architecture that leverages both sp
 </table>
 
 </div>
+
+## 📚 Citation
+
+If you find this work helpful in your research, please cite:
+
+```bibtex
+@InProceedings{Jiang_2024_CVPR,
+    author    = {Jiang, Hongcheng and Chen, Zhiqiang},
+    title     = {Flexible Window-based Self-attention Transformer in Thermal Image Super-Resolution},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {3076--3085}
+}
+```
+
+
+## 📬 Contact
+
+If you have any questions, feedback, or collaboration ideas, feel free to reach out:
+
+- 💻 Website: [jianghongcheng.github.io](https://jianghongcheng.github.io/)
+- 📧 Email: [hjq44@mail.umkc.edu](mailto:hjq44@mail.umkc.edu)
+- 🏫 Affiliation: University of Missouri–Kansas City (UMKC)
+
+
