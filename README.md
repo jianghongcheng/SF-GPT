@@ -12,7 +12,16 @@ Official PyTorch implementation of the paper:
 Near-Infrared (NIR) imaging provides enhanced contrast and sensitivity but lacks the spatial and textural richness of RGB images. NIR-to-RGB translation is a challenging task due to:
 
 - Spectral mapping ambiguity  
+  <p align="center">
+    <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/nir_dif_example.png" width="600"/>
+  </p>
+
 - Statistical weak correlation between NIR and RGB
+
+  <p align="center">
+    <img src="https://github.com/jianghongcheng/SF-GPT/blob/main/Figures/Statistical_correlation.png" width="600"/>
+  </p>
+
 
 We propose **SF-GPT**, a novel deep learning architecture that leverages both spatial and frequency domains through transformer-based mechanisms.
 
